@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Bilibili Live danmaku timestamp",
+  "version": "0.0.1",
+  "description": "自动显示B站直播弹幕的发出时间",
+  "homepage_url": "https://github.com/Michael1015198808/Chrome-Plugin-Bilibili-live-danmaku-timestamp",
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "main.js"
+      ],
+      "matches": ["*://live.bilibili.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
