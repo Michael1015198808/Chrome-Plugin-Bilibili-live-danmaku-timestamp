@@ -12,7 +12,7 @@
         "main.js"
       ],
       "matches": ["*://live.bilibili.com/*"],
-      "run_at": "document_start"
+      "run_at": "document_end"
     }
   ]
 }
