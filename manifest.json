@@ -6,6 +6,9 @@
   "homepage_url": "https://github.com/Michael1015198808/Chrome-Plugin-Bilibili-live-danmaku-timestamp",
   "permissions": [
   ],
+  "action": {
+    "default_popup": "popup/main.html"
+  },
   "content_scripts": [
     {
       "js": [
